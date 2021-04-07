@@ -1,4 +1,9 @@
-html, body {
+html {
+  height: 100%;
+  background-color: lightblue;
+}
+
+body {
   height: 100%;
   background-color: lightblue;
 }
@@ -8,12 +13,9 @@ html, body {
 }
 
 #framesofthegame {
-  
   margin: 0;
   display: flex;
-
   justify-content: center;
-
   align-items: center;
 }
 
