@@ -1,16 +1,26 @@
-/* style.css */
-
 html, body {
   height: 100%;
 }
 
-body {
+#header {
+  text-align: center;
+}
+
+#framesofthegame {
+  
   margin: 0;
   display: flex;
 
-  /* This centers our sketch horizontally. */
   justify-content: center;
 
-  /* This centers our sketch vertically. */
   align-items: center;
+}
+
+#thegame {
+  height: 625px;
+  width: 600px;
+
+  img {
+  max-width: 100%;
+  height: auto;
 }
